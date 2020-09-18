@@ -1,15 +1,19 @@
+form {
+    align-items: center;
+    font-size: 1.5rem;
+}
+
 .input-text {
-    margin-left: 15%;
-    margin-right: 15%;
-    align-self: stretch;
+    width: 80%;
+    align-self: center;
     border: solid rgb(241, 186, 164);
     border-radius: .05rem;
     height: unset;
-    height: 2rem;
+    height: 1.5rem;
 }
 
 .publicar {
-    border: .2rem solid black;
+    border: .1rem solid black;
     border-radius: .6rem;
     align-self: center;
     padding: .3rem;
@@ -19,10 +23,6 @@
 
 b {
     font-size: 1.5rem;
-}
-
-.voltar {
-    align-self: flex-start;
 }
 
 h1 {

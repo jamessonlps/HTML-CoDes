@@ -1,19 +1,13 @@
 html {
     font-size: 16px;
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 12ca237a8ca226297acedcca4662565d5e143fac
     height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     justify-content: space-between;
-=======
->>>>>>> 12ca237a8ca226297acedcca4662565d5e143fac
     height: 100%;
 }
 
@@ -27,13 +21,10 @@ header {
 main {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     justify-content: space-between;
     height: 70%;
-=======
     background-color: khaki;
     height:100%
->>>>>>> 12ca237a8ca226297acedcca4662565d5e143fac
 }
 
 form {
