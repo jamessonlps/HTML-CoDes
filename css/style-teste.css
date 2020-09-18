@@ -1,0 +1,37 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: khaki;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .2rem;
+}
+
+footer {
+    padding-top: .5rem;
+    text-align: center;
+    background-color: lightgreen;
+}
