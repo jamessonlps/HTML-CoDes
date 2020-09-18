@@ -1,0 +1,17 @@
+
+form, main {
+    align-items: flex-start;
+}
+
+p {
+    padding: 1rem 0 1rem 0;
+}
+
+a {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}

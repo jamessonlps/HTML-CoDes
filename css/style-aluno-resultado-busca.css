@@ -1,0 +1,35 @@
+img {
+    max-width: 10rem;
+    width: auto;
+    height: 15rem;
+}
+
+.perfil-instrutor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.info-instrutor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: .5rem;
+    
+}
+
+a {
+    align-self: flex-start;
+}
+
+p {
+    height: max-content;
+    border: .1rem solid black;
+    font-size: 1.2rem;
+}
+
+h1 {
+    align-self: center;
+}
