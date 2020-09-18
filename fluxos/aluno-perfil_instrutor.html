@@ -5,7 +5,7 @@
         <title> MentorApp</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/aluno-perfil_instrutor.css">
     </head>
 
     <body>
@@ -16,41 +16,68 @@
         </header>
 
         <main>
-
-            <img src="../img/dalai_lama_perfil.jpg" alt="Foto de perfil Dalai Barros" width="200" height="300">
-            100 R$ / hora  &nbsp;&nbsp; &nbsp;&nbsp; <a href="agendamentos.html"> <b> AGENDAR! </b> </a> </h2>
+            <br>
             <h3> Apresentação em vídeo:</h3>
-            <video src="../video/muppets.mp4"  controls></video>
+            <div class="cabecalho_perfil"> 
+                <video class='video_apresentacao' src="../video/muppets.mp4"  controls></video>
 
-            <h3> Descrição: </h3>
-            <p> A única área que eu acho, que vai exigir muita atenção nossa, e aí eu já aventei a hipótese de até criar um ministério.<br>
-                É na área de... Na área... Eu diria assim, como uma espécie de analogia com o que acontece na área agrícola.<br>
-                No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam.<br>
-                Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.
-            </p>
-            <h3> Materiais: </h3>
-            <ul>
-                <li><a href="em_construcao.html">  Apresentando-se em mandarim </a></li>
-                <li><a href="em_construcao.html">  Despedindo-se em mandarim </a></li>
-                <li><a href="em_construcao.html">  Dias da Semana </a></li>
-                <li><a href="em_construcao.html">  Como pedir ajuda em mandarim? </a></li>
-            </ul>
-            <h3> Avaliações (28):</h3> 
-            <h4> Média: 4,8 </h4>
-            <img src="../img/star.png" alt="simbolo de estrela" width="32" height="32">  <br>
+                <img class='foto_perfil' src="../img/dalai_lama_perfil.jpg" alt="Foto de perfil Dalai Barros">
+                
+            </div>
+            <div class="preco"> 
+                100 R$ / hora
+                <br>
+            </div> 
             
-            <h4> Faustão:</h4> 
-             Nota: 5,0 <img src="../img/star.png" alt="simbolo de estrela" width="32" height="32"> <br>
-            <p> ô louco, bicho! Quem sabe faz ao vivo!</p>
+            <a class="agendar" href="agendamentos.html"> AGENDAR! </a> <br>
+            
+            <div class="conteudo">
+                <div class="descricao"> 
+                    <h3> Descrição: </h3>
+                    <p> A única área que eu acho, que vai exigir muita atenção nossa, e aí eu já aventei a hipótese de até criar um ministério.
+                        É na área de... Na área... Eu diria assim, como uma espécie de analogia com o que acontece na área agrícola.
+                        No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam.
+                        Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.
+                    </p>
+                </div>
+                <div class="materiais"> 
+                    <h3> Materiais: </h3>
+                    <ul>
+                        <li><a href="em_construcao.html">  Apresentando-se em mandarim </a></li>
+                        <li><a href="em_construcao.html">  Despedindo-se em mandarim </a></li>
+                        <li><a href="em_construcao.html">  Dias da Semana </a></li>
+                        <li><a href="em_construcao.html">  Como pedir ajuda em mandarim? </a></li>
+                    </ul>
+                </div>
+            </div>
 
-            <h4> Julius:</h4>
-            Nota: 4,0 <img src="../img/star.png" alt="simbolo de estrela" width="32" height="32"> <br>
-            <p> Preciso de mais um emprego para pagar as aulas. Mas valem cada centavo!</p>
-
-            <h4> Ana Maria Braga:</h4>
-            Nota: 4,8 <img src="../img/star.png" alt="simbolo de estrela" width="32" height="32"> <br>
-            <p> Hmmmmmmmmmmmmmmmmm!</p>
-        
+         
+            <span class="comentario"> 
+                <h3> Avaliações (28):</h3> 
+                Média: 4,8 
+                <img class="estrela" src="../img/star.png" alt="simbolo de estrela">  <br>
+            </span>
+            <br>
+            <div class='avaliacoes'> 
+                <span class='comentario'> 
+                    <h4> Faustão: </h4> 
+                    5,0 <img class="estrela" src="../img/star.png" alt="simbolo de estrela"> <br>
+                </span>
+                <p> ô louco, bicho! Quem sabe faz ao vivo!</p>
+                
+                <span class='comentario'> 
+                    <h4> Julius:</h4>
+                    4,0 <img class="estrela" src="../img/star.png" alt="simbolo de estrela"> <br>
+                </span>
+                <p> Preciso de mais um emprego para pagar as aulas. Mas valem cada centavo!</p>
+                
+                <span class='comentario'> 
+                    <h4> Ana Maria Braga:</h4>
+                    4,8 <img class="estrela" src="../img/star.png" alt="simbolo de estrela"> <br>
+                </span>
+                <p> Hmmmmmmmmmmmmmmmmm!</p>
+            </div>
+            
         </main>
 
         <footer>

@@ -1,21 +1,21 @@
 html {
     font-size: 16px;
     height: 100%;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 body {
+    height: 100%;
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
-    /* overflow: scroll; */
+    overflow: scroll;
     background-color: blueviolet;
 }
 
 h1 {
+    
     font-size: x-large;
     font-weight: bold;
     margin-bottom: .3rem;
@@ -47,9 +47,9 @@ header {
 }
 
 main {
-    /* padding: 1rem; */
     height: 100%;
     width: 100%;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     background-color: khaki;
@@ -75,5 +75,7 @@ ul {
 }
 
 .voltar {
-    align-self: flex-start;
+    color:red;
+    display: flex;
+    align-items: flex-start;
 }
