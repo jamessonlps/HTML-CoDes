@@ -41,7 +41,7 @@ img{
 .botao {
     width: 150px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid red;
     padding: 10px;
     text-align: center;
     border-top-color: gray;
@@ -61,10 +61,10 @@ img{
     left: 1px;
 }
 
-.botao2 {
+.fusca {
     width: 150px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid pink;
     padding: 10px;
     text-align: center;
     border-top-color: gray;

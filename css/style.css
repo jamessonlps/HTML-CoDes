@@ -14,6 +14,36 @@ body {
     background-color: blueviolet;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: salmon;
+    border-bottom: .08rem solid black;
+    margin: .1rem;
+}
+
+
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+    background-color: khaki;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgreen;
+}
+
 h1 {
     
     font-size: x-large;
@@ -34,31 +64,6 @@ h4 {
     color: purple;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: salmon;
-    border: .08rem solid black;
-    border-radius: .5rem;
-    margin: .1rem;
-}
-
-main {
-    height: 100%;
-    width: 100%;
-    padding: .5rem;
-    display: flex;
-    flex-direction: column;
-    background-color: khaki;
-}
-
-footer {
-    text-align: center;
-    background-color: lightgreen;
-}
 
 form {
     display: flex;
@@ -74,12 +79,22 @@ ul {
     margin-left: 1rem;
 }
 
-.voltar {
-<<<<<<< HEAD
-    color:red;
-    display: flex;
-    align-items: flex-start;
-=======
-    align-self: flex-start;
->>>>>>> 653057522be86dbff7ab39e10f07f772fc374e68
+.botao {
+    width: 150px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-top-color: gray;
+    border-left-color: gray;
+}
+
+.botao:active {
+    border-top-color: black;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: black;
+    position: relative;
+    top: .1rem;
+    left: .1rem;
 }
