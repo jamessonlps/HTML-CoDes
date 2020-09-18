@@ -1,7 +1,30 @@
-.text {
-    align-self: stretch;
+form {
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.input-text {
+    width: 80%;
+    align-self: center;
+    border: solid rgb(241, 186, 164);
+    border-radius: .05rem;
+    height: unset;
+    height: 1.5rem;
 }
 
 .publicar {
+    border: .1rem solid black;
+    border-radius: .6rem;
     align-self: center;
+    padding: .3rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+b {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
 }

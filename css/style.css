@@ -75,7 +75,11 @@ ul {
 }
 
 .voltar {
+<<<<<<< HEAD
     color:red;
     display: flex;
     align-items: flex-start;
+=======
+    align-self: flex-start;
+>>>>>>> 653057522be86dbff7ab39e10f07f772fc374e68
 }

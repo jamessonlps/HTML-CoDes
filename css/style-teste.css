@@ -1,37 +1,51 @@
 html {
     font-size: 16px;
+<<<<<<< HEAD
+    width: 100%;
+=======
+>>>>>>> 12ca237a8ca226297acedcca4662565d5e143fac
+    height: 100%;
 }
 
 body {
-    position: relative;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+    justify-content: space-between;
+=======
+>>>>>>> 12ca237a8ca226297acedcca4662565d5e143fac
+    height: 100%;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: salmon;
+    background-color: lightpink;
 }
 
 main {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+    justify-content: space-between;
+    height: 70%;
+=======
     background-color: khaki;
+    height:100%
+>>>>>>> 12ca237a8ca226297acedcca4662565d5e143fac
 }
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: .2rem;
+    height: 40%;
+    align-items: center;
 }
 
 footer {
-    padding-top: .5rem;
+    justify-self: flex-end;
     text-align: center;
-    background-color: lightgreen;
+    background-color: lightpink;
 }
