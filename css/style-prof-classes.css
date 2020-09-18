@@ -81,7 +81,7 @@ img{
     border-left-color: black;
 }
 
-.botao2:active span {
+.botao2:active span2 {
     position: relative;
     top: 1px;
     left: 1px;

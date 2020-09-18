@@ -33,13 +33,6 @@ main {
     align-items: center;
 }
 
-img{
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
 .botao {
     width: 150px;
