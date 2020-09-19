@@ -9,13 +9,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     overflow: scroll;
+    width: 100%;
 }
 
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     height: 3rem;
+    background-color: salmon;
 }
 
 main {
@@ -23,10 +25,11 @@ main {
     flex-direction: column;
     justify-content: space-between;
     border-top: .1rem solid black;
+    background-color: khaki;
 }
 
 img {
-    max-width: 10rem;
+    /* max-width: 10rem; */
     width: auto;
     height: 15rem;
 }
@@ -45,6 +48,7 @@ h1 {
     font-size: x-large;
     font-weight: bold;
     align-self: center;
+    justify-self: center;
     /* margin-bottom: .3rem; */
 }
 
@@ -55,6 +59,7 @@ h2 {
 
 footer {
     text-align: center;
+    background-color: lightgreen;
 }
 
 .perfil-instrutor {
@@ -79,4 +84,16 @@ footer {
     top: 0rem;
     width: 2rem;
     height: 2rem;
+}
+
+.botao {
+    width: 8rem;
+    margin: 1rem;
+    border: .15rem solid black;
+    padding: .6rem;
+    text-align: center;
+    border-top-color: gray;
+    border-left-color: gray;
+    background-color: lightskyblue;
+    border-radius: .5rem;
 }
