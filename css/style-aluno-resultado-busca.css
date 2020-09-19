@@ -1,7 +1,60 @@
+html {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: .1rem solid black;
+}
+
 img {
     max-width: 10rem;
     width: auto;
     height: 15rem;
+}
+
+a {
+    align-self: flex-start;
+}
+
+p {
+    height: max-content;
+    /* border: .1rem solid black; */
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    align-self: center;
+    /* margin-bottom: .3rem; */
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
 }
 
 .perfil-instrutor {
@@ -20,22 +73,10 @@ img {
     
 }
 
-a {
-    align-self: flex-start;
+.return {
+    position: absolute;
+    left: 1rem;
+    top: 0rem;
+    width: 2rem;
+    height: 2rem;
 }
-
-p {
-    height: max-content;
-    /* border: .1rem solid black; */
-    font-size: 1.2rem;
-}
-
-h1 {
-    align-self: center;
-}
-
-header {
-    
-    height: 3rem;
-}
-
