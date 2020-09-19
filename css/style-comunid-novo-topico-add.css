@@ -16,3 +16,7 @@ main {
     position: relative;
     left:1rem;
 }
+
+.destaque{
+    background-color: yellow;
+}
