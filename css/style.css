@@ -28,8 +28,7 @@ header {
 
 
 main {
-    /* position: relative; */
-    top: 3rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -102,15 +101,17 @@ ul {
 }
 
 .return {
-    position: fixed;
-    left: 0rem;
+    position: absolute;
+    left: 1rem;
     top: 0rem;
     width: 2rem;
     height: 2rem;
 }
 
 .return:active {
-    position: fixed;
+    position: absolute;
     top: .1rem;
-    left: .1rem;
+    left: .5rem;
 }
+
+
