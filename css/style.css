@@ -54,6 +54,11 @@ h2 {
     font-size: large;
     font-weight: bold;
 }
+
+.maiorzin{
+    font-size: 1rem;
+}
+
 h3 {
     font-size: large;
     color: green;
@@ -98,6 +103,10 @@ ul {
     position: relative;
     top: .1rem;
     left: .1rem;
+}
+
+.ladin{
+    display: inline-flex;
 }
 
 .return {
