@@ -134,3 +134,16 @@ p, ul {
     height: 1rem;
 }
 
+.return {
+    position: absolute;
+    left: 1rem;
+    top: 0rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.return:active {
+    position: absolute;
+    top: .5rem;
+    left: .1rem;
+}
