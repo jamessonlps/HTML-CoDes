@@ -1,0 +1,14 @@
+
+form, main {
+    align-items: flex-start;
+    justify-content: stretch;
+}
+
+.botao{
+    position: relative;
+    align-self: center;
+}
+
+li{
+    margin: .2rem 0;
+}

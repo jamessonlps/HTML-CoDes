@@ -1,0 +1,10 @@
+
+form, main {
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.botao{
+    position: relative;
+    align-self: center;
+}
