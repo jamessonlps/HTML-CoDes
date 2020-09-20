@@ -15,7 +15,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 3rem;
     background-color: salmon;
 }
@@ -29,9 +29,8 @@ main {
 }
 
 img {
-    /* max-width: 10rem; */
-    width: auto;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 a {
