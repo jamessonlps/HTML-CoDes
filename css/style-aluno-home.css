@@ -1,8 +1,0 @@
-main {
-    justify-content: center;
-}
-
-.lista-botoes{
-    display:flex;
-    flex-direction: column;
-}
