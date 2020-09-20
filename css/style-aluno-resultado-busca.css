@@ -17,7 +17,6 @@ header {
     flex-direction: row;
     justify-content: center;
     height: 3rem;
-    background-color: salmon;
 }
 
 main {
@@ -25,7 +24,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     border-top: .1rem solid black;
-    background-color: khaki;
 }
 
 img {
@@ -47,8 +45,6 @@ h1 {
     font-size: x-large;
     font-weight: bold;
     align-self: center;
-    justify-self: center;
-    /* margin-bottom: .3rem; */
 }
 
 h2 {
@@ -58,7 +54,6 @@ h2 {
 
 footer {
     text-align: center;
-    background-color: lightgreen;
 }
 
 .perfil-instrutor {
