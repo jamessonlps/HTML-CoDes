@@ -1,6 +1,6 @@
 
 main {
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
 }
 
@@ -15,4 +15,16 @@ main {
 .comentarios{
     position: relative;
     left:1rem;
+}
+
+.add-topic {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+
+.add-topic:active {
+    position: absolute;
+    width: 2.1rem;
+    height: 2.1rem;
 }
