@@ -26,6 +26,8 @@ header {
     width: 100%;
     height: 3rem;
     border-bottom: .08rem solid black;
+    background-color:#0E516E;
+    color: #e1f2fa;
 }
 
 main {
@@ -57,7 +59,6 @@ h2 {
 
 h3 {
     font-size: large;
-    color: green;
 }
 
 .logoapp {
@@ -87,7 +88,7 @@ h3 {
     text-align: center;
     border-top-color: gray;
     border-left-color: gray;
-    background-color: lightskyblue;
+    background-color: #e1f2fa;
     border-radius: .5rem;
 }
 
