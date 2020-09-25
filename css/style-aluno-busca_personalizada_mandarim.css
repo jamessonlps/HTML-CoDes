@@ -1,5 +1,7 @@
 
 form, main {
+    display: flex;
+
     align-items: flex-start;
     justify-content: stretch;
 }
@@ -10,5 +12,5 @@ form, main {
 }
 
 li{
-    margin: .2rem 0;
+    margin: .4rem .3rem;
 }

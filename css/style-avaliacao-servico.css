@@ -15,4 +15,7 @@ a {
 
 h2 {
     margin-top: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    color: #15759E;
 }
