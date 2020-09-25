@@ -2,7 +2,11 @@ html {
     font-size: 16px;
     height: 100%;
     width: 100%;
-    min-height: 264px;   
+    min-height: 264px;
+    /* texto principal: */
+    font-family: 'Open Sans', sans-serif;
+    /* textos longos: */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
