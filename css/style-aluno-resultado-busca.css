@@ -92,15 +92,26 @@ footer {
 }
 
 .botao {
-    width: 6rem;
-    height: 1rem;
+    width: fit-content;
+    height: fit-content;
     margin: .5rem;
-    border: .15rem solid black;
     padding: .6rem;
     text-align: center;
     border-top-color: gray;
     border-left-color: gray;
     background-color:#E1F2FA;
+
+    border-radius: .5rem;
+}
+.botao_prof {
+    width: fit-content;
+    height: 1rem;
+    border: .15rem solid black;
+    padding: .6rem;
+    text-align: center;
+    border-top-color: gray;
+    border-left-color: gray;
+    background-color:#6DA1B8;
 
     border-radius: .5rem;
 }
