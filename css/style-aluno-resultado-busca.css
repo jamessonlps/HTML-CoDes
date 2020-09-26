@@ -2,10 +2,9 @@ html {
     font-size: 16px;
     height: 100%;
     width: 100%;   
-    /* texto principal: */
-    font-family: 'Open Sans', sans-serif;
-    /* textos longos: */
-    font-family: 'Source Sans Pro', sans-serif;
+    /* texto principal: Source Sans Pro */
+    /* textos longos: Noto */
+    font-family: 'Source Sans Pro', 'Noto', sans-serif;
 }
 
 body {
