@@ -21,15 +21,17 @@ header {
     flex-direction: row;
     justify-content: center;
     height: 5rem;
+    margin: .1rem;
     background-color:#0E516E;
     color: #e1f2fa;
+    border-bottom: .08rem solid black;
 }
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-top: .1rem solid black;
+ 
 }
 
 img {

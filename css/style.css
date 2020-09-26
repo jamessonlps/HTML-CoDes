@@ -25,6 +25,7 @@ header {
     justify-content: center;
     width: 100%;
     height: 5rem;
+    margin: .1rem;
     border-bottom: .08rem solid black;
     background-color:#0E516E;
     color: #e1f2fa;
