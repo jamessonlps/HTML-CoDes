@@ -34,3 +34,24 @@ form {
 .enviar {
     margin: 1rem;
 }
+
+h2{
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem;
+}
+
+h4{
+    margin-bottom: 0.7rem;
+}
+
+.botao_prof {
+    width: fit-content;
+    height: 1rem;
+    border: .15rem solid black;
+    padding: .6rem;
+    text-align: center;
+    border-top-color: gray;
+    border-left-color: gray;
+    background-color:#6DA1B8;
+    border-radius: .5rem;
+}
