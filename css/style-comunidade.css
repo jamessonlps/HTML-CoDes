@@ -6,15 +6,10 @@ main {
 
 .postagem {
     width: 100%;
-    margin: .2rem;
+    margin: 1rem;
     padding: .2rem;
     border-top: .2rem solid gray;
     border-bottom: .2rem solid gray;
-}
-
-.comentarios{
-    position: relative;
-    left:1rem;
 }
 
 .add-topic {
@@ -27,4 +22,29 @@ main {
     position: absolute;
     width: 2.1rem;
     height: 2.1rem;
+}
+
+.botao-coment {
+    position: relative;
+    left:1rem;
+    width: 8rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    border: .15rem solid black;
+    padding: .6rem;
+    text-align: center;
+    border-top-color: gray;
+    border-left-color: gray;
+    background-color: #E1F2FA;
+    border-radius: .5rem;
+}
+
+.botao-coment:active {
+    border-top-color: black;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: black;
+    position: relative;
+    top: .1rem;
+    left: .1rem;
 }
