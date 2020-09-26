@@ -4,6 +4,11 @@ main {
     justify-content: flex-start;
 }
 
+h2{
+    font-size: large;
+    font-weight: bold;
+}
+
 .postagem {
     width: 100%;
     margin: .2rem;
@@ -29,17 +34,15 @@ main {
 }
 
 .botao-coment {
-    position: relative;
-    left:1rem;
-    width: 8rem;
-    margin: 1rem;
-    margin-top: 4rem;
-    border: .15rem solid black;
+    width: fit-content;
+    height: fit-content;
+    margin: .5rem;
     padding: .6rem;
     text-align: center;
     border-top-color: gray;
     border-left-color: gray;
-    background-color: #E1F2FA;
+    background-color:#E1F2FA;
+
     border-radius: .5rem;
 }
 
